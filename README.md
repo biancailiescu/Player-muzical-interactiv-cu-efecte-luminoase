@@ -1,0 +1,9 @@
+# Player-muzical-interactiv-cu-efecte-luminoase
+Sistemul propus este un player muzical controlat cu ajutorul unui ecran LCD si butoane fizice, capabil sa redea melodii in format WAV stocate pe un card microSD, utilizand o placa Arduino si un difuzor. Utilizatorul poate naviga intre melodii si moduri de iluminare prin intermediul a trei butoane: inainte, inapoi si selectare mod. Melodiile sunt redate folosind biblioteca TMRpcm, iar sistemul utilizeaza pinul analogic A0 pentru a citi semnalul audio preluat direct din difuzor, printr-o punte realizata cu doua rezistente. Pe baza valorilor citite in timp real, este calculat un nivel audio, care este folosit pentru a actualiza banda de LED-uri WS2812B.
+
+Scopul principal este de a oferi o experienta multimedia interactiva si personalizabila, in care utilizatorul nu doar asculta muzica, ci si vizualizeaza efecte luminoase adaptate atat ritmului, cat si preferintelor sale de moment.
+
+Ideea de baza a pornit de la dorinta de a crea un sistem care sa combine muzica si luminile intr-un mod sincronizat, inspirat de sistemele moderne de redare muzicala cu efecte vizuale. Pentru a creste interactivitatea si personalizarea, am adaugat posibilitatea de a selecta diferite moduri de iluminare, astfel incat utilizatorul sa poata adapta atmosfera in functie de preferinte sau context.
+
+Utilitatea proiectului este data de experienta de divertisment personalizabila pe care o ofera, potrivita pentru petreceri, decoruri tematice sau relaxare. De asemenea, proiectul poate fi utilizat si in scopuri didactice, urmarind concepte de baza de electronica, Arduino si programare embedded si avand o posibilitate vasta de extindere. Pentru mine, proiectul este util atat din punct de vedere tehnic, intrucat am ocazia de a aplica o varietate de cunostinte pe care le-am dobandit de-a lungul facultatii, dar si din punct de vedere personal, pentru ca reprezinta o provocare creativa si tehnica.
+
